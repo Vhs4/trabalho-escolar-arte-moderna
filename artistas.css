@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    margin: 0 auto;
+    display: flex;
+}
+
+h6 {
+    font-size: medium;
+    margin-bottom: 1.5rem;
+}
+
+.first {
+    display: flex;
+    justify-content: right;
+}
+
+.first h1 {
+    margin: 1rem 1rem 0 0;
+}
+
+.img-redonda img {
+    max-width: 20rem;
+    border-radius: 50%;
+    margin: .2rem .5rem 0 0;
+}
+
+.container p {
+    margin-top: 2rem;
+}
+
+#text-left {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 300px;
+}
+
+@media (max-width: 480px) {
+    #text-left {
+        width: auto;
+    }
+}
